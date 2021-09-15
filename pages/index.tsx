@@ -15,6 +15,13 @@ const Home = ({
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
+        <meta name="google" content="notranslate" key="notranslate" />
+        <link
+          rel="canonical"
+          href="https://next-tutorial-devroy.vercel.app/"
+          key="canonical"
+        />
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
