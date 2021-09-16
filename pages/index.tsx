@@ -17,11 +17,16 @@ const Home = ({
         <title>{siteTitle}</title>
         <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
         <meta name="google" content="notranslate" key="notranslate" />
+        <meta
+          name="description"
+          content="That's one small step for a man, one giant leap for mankind."
+        />
         <link
           rel="canonical"
           href="https://next-tutorial-devroy.vercel.app/"
           key="canonical"
         />
+        <meta property="og:description" content="수현의 next 프로젝트입니다." />
       </Head>
       <Layout home>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
