@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactChild } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/layout.module.css';
@@ -12,7 +12,7 @@ const Layout = ({
   children,
   home,
 }: {
-  children: ReactNode;
+  children: ReactChild;
   home?: boolean;
 }) => {
   return (

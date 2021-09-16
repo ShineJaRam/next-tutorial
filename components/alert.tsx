@@ -1,8 +1,14 @@
 import styles from './alert.module.css';
 import cn from 'classnames';
-import { ReactNode } from 'react';
+import { ReactElement } from 'react';
 
-const Alert = ({ children, type }: { children: ReactNode; type: string }) => {
+const Alert = ({
+  children,
+  type,
+}: {
+  children: ReactElement;
+  type: string;
+}) => {
   return (
     <div
       className={cn({

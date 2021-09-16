@@ -1,5 +1,4 @@
-//pages/sitemap.xml.js
-import { GetServerSideProps, NextApiRequest } from 'next';
+import { GetServerSideProps } from 'next';
 
 const EXTERNAL_DATA_URL = 'https://jsonplaceholder.typicode.com/posts';
 
